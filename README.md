@@ -1,6 +1,5 @@
 # virt_map
 simple manual map injector supporting virtualized modules
 
-## Usage
-
-<pre> ```cpp #include <iostream> int main() { std::cout << "Hello, world!" << std::endl; return 0; } ``` </pre>
+## usage
+initialize the class with the target process name, then call the map_module member function and pass image base and image size
