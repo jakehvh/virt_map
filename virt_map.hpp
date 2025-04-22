@@ -32,7 +32,7 @@ namespace virt_map
 		uint64_t module_size;
 	};
 
-	void __stdcall shell_func( f_shellcode_data* map_data );
+	void __stdcall shell_func( f_shellcode_data* shell_data );
 
 	class target_process
 	{
